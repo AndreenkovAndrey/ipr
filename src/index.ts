@@ -1,1 +1,3 @@
-console.log('ok');
+import {someFn} from './test'
+
+someFn(123)
