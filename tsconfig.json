@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "es5",
     "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "esModuleInterop": true,
+//    "baseUrl": ".",
+    // esModuleInterop позволяет работать с пакетами, которые используют
     "allowSyntheticDefaultImports": true
   },
   "ts-node": {
